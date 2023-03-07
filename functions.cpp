@@ -76,7 +76,7 @@ char askForLetter(string guessedLetters)
     
     else if (!islower(letter))
     {
-      tolower(letter);
+      letter = tolower(letter);
     }
   
   }
